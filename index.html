@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe.com</title>
+    <link rel="icon" href="resources/logo.png" type="image/png">
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <img class="logo" src="resources/logo.png" alt="Logo" title="Logo">
+            <li> <a href="">Home</a> </li>
+            <li> <a href="./fav.html">Favorites</a> </li>
+            <li> <a href="./login/login.html">Sign in / Sign Up</a> </li>
+        </ul>
+    </nav>
+
+    <div class="head1">
+            <h1>Seaarch Below</h1>
+    <!-- </div>
+    <div class="head2">  -->
+            <form name="searchform" onSubmit="return dosearch();">
+                Search:
+                <select name="sengines">
+                <option value="./search.html?name?" selected>Search by Name</option>
+                <option value="./search.html?ingredient?">Search by Ingredients</option>
+
+                </select>
+                For:
+                <input type="text" name="searchterms">
+                <input type="submit" name="SearchSubmit" value="Search">
+                </form>
+    </div>
+       
+</body>
+</html>

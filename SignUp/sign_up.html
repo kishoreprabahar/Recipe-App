@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="SignUp-style.css" type="text/css">
+    <link rel="icon" href="../resources/logo.png" type="image/png">
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pacifico"> -->
+</head>
+<body>
+    <!--Link to go back Home Page-->
+    <span>
+    <a href="../index.html"><h1>Home</h1></a> </span>
+
+    <p class="reg">Enter Details to Sign Up Here</p>
+
+    <!--Sign Up Form-->
+        <form id="form">
+            <span class="f_name">
+                 Name: <input type="text" name="First Name" size="20" maxlength="25" placeholder="Enter Your First Name" required>
+            </span>
+                    <br>
+            <span class="mail">
+                E-Mail: <input type="email" name="E-Mail" size="20" maxlength="50" placeholder="Enter Your E-Mail" required>
+            </span>
+            <br>
+            <span class="dob">
+                Date of Birth: <input type="date" name="Date" required>
+            </span>
+            <div>
+            <span class="pas">
+                 Password: <input type="password" name="Password" size="20" maxlength="20" placeholder="Enter Your Password" required>
+            </span> 
+                    <br>
+            <span class="gender">
+                Gender: Male<input type="radio" name="Gender" id="Male" value="Male">
+                            <!-- <label for="Male">Male</label> -->
+                        Female<input type="radio" name="Gender" id="Female" value="Female" required>
+                            <!-- <label for="Female">Female</label> -->
+            </span>
+            <input type="submit" value="Sign Up">
+        </form>
+</body>
+</html>

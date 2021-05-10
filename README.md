@@ -1,10 +1,5 @@
-# Recipe-App
+## Assignment-08 ┇ HTML and CSS – Food Website's different Webpages (Home, Login, Menu Pages)
+- Surge Deploy Link: </br>
+https://assignment-08.surge.sh
 
-Hello to Team IDT.
-
-I have been trying to learn react and develop application on top of it which was midway and not so eye glazing.
-
-So for now am submitting something made of HTML,CSS,JS.
-
-I am not attaching DB still made UI for User Signin/Signups.
-
+(In Progress Repo)
